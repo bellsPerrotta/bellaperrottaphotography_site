@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BAB8AE;
+    color: #3C2362;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #3C2362;
+}
+
+.back-link {
+    color: #6EA546;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.box1 {
+    background-color: #3C2362;
+}
+
+.box2 {
+    background-color: #6EA546;
+}
+
+.box3 {
+    background-color: #65A8AB;
+}
+
+.box4 {
+    background-color: #E8923E;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+/* Gallery Page Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.photo {
+    background-color: #3C2362;
+    color: white;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 1em;
+}
+

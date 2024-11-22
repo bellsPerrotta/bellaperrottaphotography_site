@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	background-color: rgba(136,170,130,1.00)
+	background-color: #6EA546;
 }
 
 
@@ -17,28 +17,32 @@ body{
   font-weight: 20px;
   font-style: normal;
 text-align: center;
-	color:rgba(255,255,255,1.00)
+	color:#3C2362;
 }
 
 #container {
   width: 300px;
-  border: 15px ridge rgba(255,151,61,1.00);
+  border: 15px ridge #E8923E;
   padding: 50px;
   margin: 20px;
 	margin: 0 auto;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	color: rgba(255,255,255,1.00)
+	color: rgba(255,255,255,1.00);
 }
 
 #container2 {
-	color:rgba(255,255,255,1.00)
+	color:rgba(255,255,255,1.00);
 }
 
 
 #gallery {
-	background-color: rgba(136,170,130,1.00)
+	background-color: #6EA546;
 }
 
 #link1 {
-	color: rgba(255,255,255,1.00)
+	color: rgba(255,255,255,1.00);
+}
+
+#link2 {
+	color: rgba(255,255,255,1.00);
 }
