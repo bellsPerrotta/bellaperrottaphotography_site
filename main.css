@@ -6,13 +6,13 @@ body{
 
 
 .playfair-display- {
-  font-family: "Playfair Display", serif;
+	font-family: ivyora-display, sans-serif;
+font-weight: 700;
+font-style: normal;
   font-optical-sizing: auto;
-  font-weight: 20px;
-  font-style: normal;
+
 }
 #h1 {
-	font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 20px;
   font-style: normal;
@@ -33,13 +33,32 @@ text-align: center;
 
 
 #container {
-  width: 300px;
+  width: 250px;
   border: 15px ridge #E8923E;
   padding: 50px;
   margin: 20px;
 	margin: 0 auto;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-family: ivyora-display, sans-serif;
+font-weight: 300;
+font-style: normal;
+	text-align: center;
 	color: rgba(255,255,255,1.00);
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+  #container {
+    width: 60%;
+    padding: 30px;
+  }
+}
+
+/* Responsive design for very small screens */
+@media (max-width: 400px) {
+  #container {
+    width: 90%;
+    padding: 15px;
+  }
 }
 
 #container2 {
