@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 body{
-	background-color: #6EA546;
+	background-color: #F5C8A1;
+	overflow-x: hidden;
 }
 
 
@@ -38,11 +39,12 @@ text-align: center;
   padding: 50px;
   margin: 20px;
 	margin: 0 auto;
+	 box-sizing: border-box;
 	font-family: ivyora-display, sans-serif;
 font-weight: 300;
 font-style: normal;
 	text-align: center;
-	color: rgba(255,255,255,1.00);
+	color: #3C2362;
 }
 
 /* Responsive design for larger screens */
@@ -66,14 +68,13 @@ font-style: normal;
 }
 
 
-#gallery {
-	background-color: #6EA546;
-}
+
 
 #link1 {
 	color: rgba(255,255,255,1.00);
+	 
 }
 
 #link2 {
-	color: rgba(255,255,255,1.00);
+	color:#3C2362;
 }
